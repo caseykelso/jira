@@ -34,7 +34,7 @@ results.getIssues().each {documentIssue ->
     Collection<Version> issueFixVersions = issue.getFixVersions();
          
     // do something to the issue...
-    issueFixVersions.add(vm.getVersion(12622));
+    issueFixVersions.add(vm.getVersion(NEW_FIXVERSION_ID));
    // output += "${issue.fixVersions}</br>";
 //    output += "${issueFixVersions}</br>";
     issue.setFixVersions(issueFixVersions);
